@@ -6,3 +6,4 @@ services:
     mem_limit: 500000000
     ports:
       - "8001:8001"
+    restart: on-failure:5  
