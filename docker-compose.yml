@@ -1,0 +1,8 @@
+version: '2'
+services:
+  grapes:
+    build:
+      context: .
+    mem_limit: 500000000
+    ports:
+      - "8001:8001"
